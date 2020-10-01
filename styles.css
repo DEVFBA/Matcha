@@ -1,5 +1,6 @@
 body {
     text-align: center;
+    background-color: #fffbf7;
 }
 
 h1 {
@@ -22,7 +23,7 @@ input {
     padding: 10px;
     font-family: Helvetica;
     font-size: 15px;
-    color: #8b8b8be3; /* No me termina de convencer */
+    color: #8b8b8be3;
     border: solid 1px;
     border-color: gray;
     height: 40px;
@@ -49,10 +50,4 @@ p {
     color: #8b8b8bcc;
     margin-top: 15px;
     font-family: "Open Sans", sans-serif;
-}
-
-img {
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
 }
