@@ -22,7 +22,7 @@ input {
     padding: 10px;
     font-family: Helvetica;
     font-size: 15px;
-    color: -internal-light-dark(black, white); /* No me termina de convencer */
+    color: #8b8b8be3; /* No me termina de convencer */
     border: solid 1px;
     border-color: gray;
     height: 40px;
