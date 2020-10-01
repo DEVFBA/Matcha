@@ -1,5 +1,8 @@
-h1 {
+body {
     text-align: center;
+}
+
+h1 {
     color: #025157;
     font-family: "Alegreya", serif;
     font-size: 60px;
@@ -7,22 +10,49 @@ h1 {
 }
 
 h4 {
-    color: #025157;
-    font-family: "Alegreya", serif;
-    font-size: 15px;
+    color: #46484c;;
+    font-family: "Slabo 27px", serif;
+    font-size: 20px;
+    font-weight: 500; /* Cambia el peso (envergadura) de la fuente */
     margin-bottom: 24px;
 }
 
-form, h4, p {
-    text-align: center;
+input {
+    border-radius: 10px; /* Se ponen los bordes redondeados */
+    padding: 10px;
+    font-family: Helvetica;
+    font-size: 15px;
+    color: -internal-light-dark(black, white); /* No me termina de convencer */
+    border: solid 1px;
+    border-color: gray;
+    height: 40px;
+    width: 200px;
+}
+
+button {
+    height: 60px;
+    width: 200px;
+    margin: -13px;
+    font-family: Helvetica;
+    font-size: 15px;
+    background-color: #025157;
+    border: none;
+    color: #fff;
+    /* Se dejan solamente los bordes derechos redondeados */
+    border-top-left-radius: 0;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 10px;
 }
 
 p {
     color: #8b8b8bcc;
     margin-top: 15px;
+    font-family: "Open Sans", sans-serif;
 }
 
-input {
-    border-radius: 10px;
-    padding: 10px;
+img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
