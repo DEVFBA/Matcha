@@ -138,6 +138,7 @@ p {
 
 .promo {
     display: flex;
+    flex-direction: row;
     width: 70%;
     margin: 100px auto;
     align-items: center;
@@ -255,4 +256,69 @@ p {
   .features .feature-card .feature-image img {
     margin-top: 0;
     height: 100%;
+}
+
+@media (max-width: 425px) {
+    .navegacion, .actions {
+        display: none;
+    }
+
+    .seccion1 {
+        margin-top: 100px;
+    }
+
+    .seccion1 h1 {
+        font-size: 30px;
+    }
+
+    .seccion1 #img1 {
+        width: 100%;
+    }
+
+    .seccion1 #img2 {
+        width: 100%;
+    }
+
+    .promo {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .promo .explanatory_video {
+        width: 90%;
+    }
+
+    .promo .publish {
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .promo .publish h3 {
+        line-height: 1.2;
+        font-size: 24px;
+    }
+
+    .email-form {
+        width: 100%;
+    }
+
+    .email-form input {
+        width: 140px;
+    }
+
+    .email-form button {
+        width: 140px;
+    }
+
+    .features {
+        /*grid-template: repeat(4, 1fr) / 1fr;*/
+        grid-template: repeat(4, 330px) / 1fr;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .features .feature-card .feature-image {
+        display: none;
+    }
 }
